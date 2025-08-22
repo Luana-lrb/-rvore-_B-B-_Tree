@@ -17,7 +17,7 @@ int main(int argc, char **argv)
 
     remove("arvoreb.dat"); // durante o desenvolvimento a cada execção o arquivo é apagado
 
-    // criar arvore b
+    // criar arvore b 
     btree *arvore = new btree();
 
     printf("Use essas chaves como exemplos de consultas que devem ser encontradas: ");
@@ -80,3 +80,4 @@ int main(int argc, char **argv)
 
     return (EXIT_SUCCESS);
 }
+
